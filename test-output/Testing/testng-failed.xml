@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="execution.POM_File">
+        <methods>
+          <include name="d_Sorting"/>
+          <include name="h_Price_H2L"/>
+          <include name="p_case16_logout"/>
+          <include name="i_Checkout_Order"/>
+          <include name="e_LowtoHigh"/>
+          <include name="c_Demo"/>
+          <include name="Launch"/>
+          <include name="f_AddItem_L2H"/>
+          <include name="b_About"/>
+          <include name="j_CheckOut_order"/>
+          <include name="a_Login_test1"/>
+          <include name="o_case15"/>
+          <include name="n_case14"/>
+          <include name="p_case17_Data_Provide"/>
+          <include name="l_AddButton"/>
+          <include name="m_case13"/>
+          <include name="k_Reset_AppStatus"/>
+          <include name="g_CheckOut_fstOrder"/>
+        </methods>
+      </class> <!-- execution.POM_File -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Testing] -->
